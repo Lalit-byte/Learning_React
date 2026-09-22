@@ -1,0 +1,16 @@
+.theme-card {
+  padding: 50px;
+  border-radius: 20px;
+  text-align: center;
+  transition: all 0.4s ease;
+}
+
+.light .theme-card {
+  background: white;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.dark .theme-card {
+  background: #1f2937;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
