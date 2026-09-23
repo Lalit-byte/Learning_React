@@ -2,7 +2,7 @@ import UseTheme from "./useTheme"
 import "./Theme.css"
 
 const Theme2 = () => {
-  const theme = UseTheme()
+  const theme = UseTheme()   //here i have not used de-structuring
 
   return (
     <div className={theme.theme}>
