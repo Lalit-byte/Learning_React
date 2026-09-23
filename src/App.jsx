@@ -10,7 +10,6 @@ import "./App.css";
 // import Themes from "./hooksPractice/Theme/Theme2"
 
 import ThemeContext from "./ContextAPI/ThemeContext";
-import ThemeButton from "./Components/ThemeButton"
 import {useState} from "react"
 
 // import { BrowserRouter, Routes, Route } from "react-router-dom "
