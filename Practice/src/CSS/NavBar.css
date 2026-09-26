@@ -1,0 +1,29 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+
+  background-color: #222;
+  padding: 18px 20px;
+}
+
+/* Links */
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+
+  padding: 8px 14px;
+  border-radius: 6px;
+
+  transition: 0.3s;
+}
+
+/* Hover effect */
+nav a:hover {
+  background-color: #444;
+  color: #61dafb;
+}
+
