@@ -12,7 +12,7 @@ const Profile = () => {
   return (
     <div className={`page ${theme}`}>
       <h1>Profile</h1>
-      <h2>Username : {user.name}</h2>
+      <h2>Username : {user.email}</h2>
       
       <ThemeButton/>
     </div>

@@ -1,8 +1,12 @@
 import { useContext } from "react";
 import ThemeContext from "../ContextAPI/ThemeContext";
+import LanguageContext from "../Context/LanguageContext"
+import translations from "../Translations/translations"
 
 const ThemeButton = () => {
   const { theme, setTheme } = useContext(ThemeContext);
+  const {language} = useContext(LanguageContext)
+  const text = translations[language]
 
   const changeTheme = () => {
     if (theme === "light") {
@@ -14,7 +18,7 @@ const ThemeButton = () => {
   
   return (
     <>
-      <h1>Theme Change Using Context api </h1>
+      <h1>{text.intro}</h1>
       <button onClick={changeTheme}>
         {theme === "light" ? "dark" : "light"}
       </button>

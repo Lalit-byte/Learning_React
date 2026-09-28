@@ -2,7 +2,9 @@
 //  navbar so we can easily move between one page to another
 
 import {Link} from "react-router-dom"   
-import "../CSS/NavBar.css"          
+import "../CSS/NavBar.css"  
+import LanguageSelector from "./LanguageSelector"    
+
 const NavBar = () => {
   return (
     <nav>
@@ -10,7 +12,9 @@ const NavBar = () => {
         <Link to="/profile">Profile</Link>
         <Link to="/about">About</Link>
         <Link to="/contact">Contact</Link>
+        <LanguageSelector/>
     </nav>
+
   )
 }
 
